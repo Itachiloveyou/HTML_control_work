@@ -168,7 +168,9 @@ form>input:nth-child(2){
     align-items: center;
     justify-content: space-between;
     width: 100%;
-
+}
+.third-section .info{
+    margin-bottom: 30px;
 }
 .info h4{
     color:  #2B2C34;
@@ -245,13 +247,7 @@ form>input:nth-child(2){
 
 
 }
-.wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
 
-}
 .article{
     display: flex;
     width: 300px;
@@ -260,7 +256,11 @@ form>input:nth-child(2){
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
-
+.articles div:nth-child(1){
+    border-radius: 12px;
+    background: #FFFFFE;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+}
 }
 .article h4{
     width: 260px;
